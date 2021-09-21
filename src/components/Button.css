@@ -20,12 +20,13 @@
     grid-column: span 2;
 }
 
-.button.double {
+.button.triple {
     grid-column: span 3;
 }
 
 .button.operation {
     background-color: #fa8231;
+    color: var(--bg-button);
 }
 
 .button.operation:active {
